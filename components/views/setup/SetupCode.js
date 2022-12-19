@@ -60,7 +60,7 @@ export default function SetupCode() {
     if (i != Data.length - 1) {
       relayList += ", ";
     }
-    relayObject += `Light R${i + 1}(${Data[i].name}, ${Data[i].topic}, ${
+    relayObject += `Light R${i + 1}("${Data[i].name}", "${Data[i].topic}", ${
       Data[i].pin
     });\n`;
   }

@@ -288,6 +288,7 @@ export default function SetupTable() {
                     style={{ marginTop: "10px" }}
                     columns={column}
                     dataSource={Data}
+                    
                   />
                 </div>
               </>
